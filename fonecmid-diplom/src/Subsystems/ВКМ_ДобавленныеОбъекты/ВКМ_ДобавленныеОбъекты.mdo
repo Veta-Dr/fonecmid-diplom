@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="080dbd08-a53e-4156-9ec7-cc0bcc7b04b2">
+  <name>ВКМ_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ВКМ) Добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>DataProcessor.ВКМ_ЗапполнениеГрафика</content>
+  <subsystems>Справочник</subsystems>
+  <subsystems>Документы</subsystems>
+  <subsystems>Регистры</subsystems>
+</mdclass:Subsystem>

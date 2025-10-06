@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40b6ab3f-3621-40ba-b53c-2ba46beba86b">
+  <producedTypes>
+    <objectType typeId="7e1ac711-7645-44d4-8f90-cab0ccd2d7ad" valueTypeId="f48afb1c-0f9b-4e85-b0a7-d15e1ff61b24"/>
+    <refType typeId="edd2b547-6804-4f2e-9226-43b6438e1d13" valueTypeId="3393e1df-7da5-4e8e-9750-85d5218c3b69"/>
+    <selectionType typeId="ee39f64a-b007-4466-99a6-a3bb643d2510" valueTypeId="d106f922-a4d7-4914-8276-98754ef6aaba"/>
+    <listType typeId="581158fb-bc5d-48ca-8e56-618ac3800e9f" valueTypeId="0fec7d63-2173-4090-9f9a-3ca64783d6f6"/>
+    <managerType typeId="6a310159-244c-4915-8da9-877756d2e344" valueTypeId="826ff8e2-8469-4ef8-a9d0-db8d58fdc615"/>
+  </producedTypes>
+  <name>ВКМ_Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники (ВКМ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_Сотрудники.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВКМ_Сотрудники.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9b17b6c9-4d92-4ab8-8ce6-910e5c28a23e">
+    <name>КатегорияСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория сотрудника</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВКМ_КатегорииСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

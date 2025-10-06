@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3623e12-a2e9-407a-8d16-2169c7eec276">
+  <producedTypes>
+    <selectionType typeId="ce7231f2-e79d-47ef-ae8f-572af8ec9ac7" valueTypeId="18955f72-5b0d-4048-840e-9fb0eff5a7b8"/>
+    <listType typeId="1a259b39-9c6c-478b-99e7-2abb7b3e3714" valueTypeId="a61971bd-4b1d-414a-84ff-49e85de2a6ee"/>
+    <managerType typeId="9334e7e5-39c0-4c69-a461-47352e93c74e" valueTypeId="e46e0cf3-248a-46ef-8f66-f366b96682b3"/>
+    <recordSetType typeId="90ae671b-0775-4935-a5d5-6323d04035b5" valueTypeId="cbc4b9f2-1474-4294-9a48-e80cf14ef678"/>
+    <recordKeyType typeId="48d60fb7-cfe5-403a-aed4-3e9d740c0fbb" valueTypeId="fbb3e2c1-296f-4d7a-8b2f-8c5ee9d349f9"/>
+    <recordType typeId="fd9bc0d5-859a-4550-b718-4eeccbeb4b11" valueTypeId="cb45c266-f70c-4218-8860-f1b7e4abb12a"/>
+  </producedTypes>
+  <name>ВКМ_ВыполненныеСотрудникомРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполненные сотрудником работы (ВКМ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="765aa614-ff5e-4c45-ba99-3b4d076bf219">
+    <name>ЧасовКОплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часов к оплате</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="de64db57-bf0a-4b48-b609-938fb3fa7bab">
+    <name>СуммаКОплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма к оплате</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="7567b414-ee0e-40cd-b43a-addab976b2b1">
+    <name>Специалист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специалист</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

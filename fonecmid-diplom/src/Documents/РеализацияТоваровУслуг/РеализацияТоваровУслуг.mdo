@@ -128,12 +128,6 @@
       <name>Отбор.Организация</name>
       <field>Document.РеализацияТоваровУслуг.Attribute.Организация</field>
     </choiceParameterLinks>
-    <choiceParameters>
-      <name>Отбор.ВидДоговора</name>
-      <value xsi:type="core:ReferenceValue">
-        <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.Покупатель</value>
-      </value>
-    </choiceParameters>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -154,7 +148,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -170,7 +163,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -410,4 +402,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="72cf9fb3-cf56-4b6d-945f-fe8fa19ea335">
+    <name>ПФ_MXL_АктОбОказанныхУслугах</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL акт об оказанных услугах</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
