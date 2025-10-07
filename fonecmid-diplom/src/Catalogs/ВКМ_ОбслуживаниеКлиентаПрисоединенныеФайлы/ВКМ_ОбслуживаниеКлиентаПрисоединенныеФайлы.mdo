@@ -149,7 +149,7 @@
       <value>Размещение</value>
     </synonym>
     <type>
-      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>DocumentRef.ВКМ_ОбслуживаниеКлиента</types>
     </type>
     <toolTip>
       <key>ru</key>

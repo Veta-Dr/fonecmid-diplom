@@ -9,6 +9,12 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>DataProcessor.ВКМ_ЗапполнениеГрафика</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>AccumulationRegister.ВКМ_ВысталеныеСчетаКлиентамЗаРаботыСпецилистов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>AccumulationRegister.ВКМ_УчетОтпусков</content>
   <subsystems>Справочник</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Регистры</subsystems>

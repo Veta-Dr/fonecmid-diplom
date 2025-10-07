@@ -207,6 +207,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Report.ВКМ_РасчетыССотрудниками</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>ChartOfCalculationTypes.ВКМ_Удержания</name>
 		<right>
 			<name>Read</name>
@@ -238,6 +249,17 @@
 		</right>
 	</object>
 	<object>
+		<name>AccumulationRegister.ВКМ_ВысталеныеСчетаКлиентамЗаРаботыСпецилистов.Dimension.Договор</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ВКМ_Сотрудники</name>
 		<right>
 			<name>Read</name>
@@ -261,6 +283,17 @@
 		</right>
 		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.ВКМ_РасходЗапланированныхОтпусков</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -358,6 +391,17 @@
 		</right>
 	</object>
 	<object>
+		<name>AccumulationRegister.ВКМ_ВысталеныеСчетаКлиентамЗаРаботыСпецилистов.Resource.Сумма</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>CalculationRegister.ВКМ_ДополнительныеНачисления</name>
 		<right>
 			<name>Read</name>
@@ -373,6 +417,28 @@
 		</right>
 		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.ВКМ_УчетОтпусков</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.ВКМ_ВыработкаСпециалистов</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -485,6 +551,50 @@
 		</right>
 	</object>
 	<object>
+		<name>AccumulationRegister.ВКМ_ВысталеныеСчетаКлиентамЗаРаботыСпецилистов.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.ВКМ_ВысталеныеСчетаКлиентамЗаРаботыСпецилистов.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.ВКМ_ВысталеныеСчетаКлиентамЗаРаботыСпецилистов.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.ВКМ_ВысталеныеСчетаКлиентамЗаРаботыСпецилистов.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>CalculationRegister.ВКМ_Удержания</name>
 		<right>
 			<name>Read</name>
@@ -501,6 +611,17 @@
 		<right>
 			<name>Edit</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.ВКМ_ВысталеныеСчетаКлиентамЗаРаботыСпецилистов.Dimension.Клиент</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -550,6 +671,13 @@
 		</right>
 		<right>
 			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.ВКМ_ОбслуживаниеКлиентов</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

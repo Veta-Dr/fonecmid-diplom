@@ -78,6 +78,12 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.КатегорияСотрудника</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ВКМ_КатегорииСотрудников.EnumValue.Специалист</value>
+      </value>
+    </choiceParameters>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
